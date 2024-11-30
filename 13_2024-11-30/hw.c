@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 // Выводит сообщение и запрашивает ввод целого числа
-int input_int();        // объявление функции
+int input_int();                    // объявление функции
 
-// khjkjkb
-void simple_cicle();    // объявление функции
+// Решает задачу "Простой цикл"
+void simple_cicle();                // объявление функции
+
+// Решает задачу "Диапазон нечетных чисел"
+void range_of_odd_numbers();        // объявление функции
+
+// Решает задачу "Циклический ввод и суммирование"
+void cicle_input_and_summation();   // объявление функции
 
 int main() {
     int choice;
@@ -12,7 +18,7 @@ int main() {
     scanf("%d", &choice);
 
     while (choice != 0) {
-        // вызов функции, решающей поставленную задачу
+        // вызов функции, решающей задачу
         int number;
         number = input_int();
         printf("Entered: %d\n", number);
@@ -36,5 +42,15 @@ int input_int() {
 void simple_cicle() {
     int a = 0;
     a = input_int();
+    // код
+}
+
+// Определение (реализация) функции для третьей задачи
+void range_of_odd_numbers() {
+    // код
+}
+
+// Определение (реализация) функции для четвертой задачи
+void cicle_input_and_summation() {
     // код
 }
